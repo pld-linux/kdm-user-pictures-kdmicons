@@ -1,4 +1,4 @@
-#$Revision: 1.2 $, $Date: 2005-02-26 22:10:56 $
+#$Revision: 1.3 $, $Date: 2005-02-28 23:33:13 $
 
 %define         _name kdmicons
 
@@ -6,7 +6,7 @@ Summary:	kdm user pictures - %{_name}
 Summary(pl):	Obrazki u¿ytkowników dla kdm-a - %{_name}
 Name:		kdm-user-pictures-%{_name}
 Version:	01
-Release:	1
+Release:	2
 License:	GPL
 Group:		Themes
 Source0:	http://kde-look.org/content/files/21231-%{_name}.tar.gz
