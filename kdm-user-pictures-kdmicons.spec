@@ -1,4 +1,4 @@
-#$Revision: 1.1 $, $Date: 2005-02-26 14:31:54 $
+#$Revision: 1.2 $, $Date: 2005-02-26 22:10:56 $
 
 %define         _name kdmicons
 
@@ -29,6 +29,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/apps/kdm/pics/users/%{_name}
 install %{_name}/*.png $RPM_BUILD_ROOT%{_datadir}/apps/kdm/pics/users/%{_name}
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
