@@ -1,9 +1,9 @@
-#$Revision: 1.5 $, $Date: 2007-02-12 00:49:00 $
+#$Revision: 1.6 $, $Date: 2007-02-13 08:06:37 $
 
 %define         _name kdmicons
 
 Summary:	kdm user pictures - %{_name}
-Summary(pl.UTF-8):   Obrazki użytkowników dla kdm-a - %{_name}
+Summary(pl.UTF-8):	Obrazki użytkowników dla kdm-a - %{_name}
 Name:		kdm-user-pictures-%{_name}
 Version:	02
 Release:	1
